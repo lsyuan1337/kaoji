@@ -1,0 +1,57 @@
+
+DUT1#sh int h 7/0/7 transceiver alarm-threshold 
+HundredGigabitEthernet 7/0/7            Value                     HighAlarm           HighWarn            LowWarn             LowAlarm            Status                                  
+Temperature(C)                          31                        80                  70                  0                   -10                 normal                                  
+Voltage(V)                              3.21                      3.63                3.46                3.13                2.97                normal                                  
+Tx Bias(mA)                             49.93/49.93/49.93/49.93   130.00              125.00              10.00               1.00                normal/normal/normal/normal             
+Tx Power(avg dBm)                       0.42/1.61/1.23/-0.06      8.16                6.50                -2.50               -5.50               normal/normal/normal/normal             
+Rx Power(avg dBm)                       -19.71/-17.17/-18.10/-18.45-0.50               -3.50               -20.51              -23.47              normal/normal/normal/normal             
+
+DUT1#sh int h 7/0/8 transceiver alarm-threshold 
+HundredGigabitEthernet 7/0/8            Value                     HighAlarm           HighWarn            LowWarn             LowAlarm            Status                                  
+Temperature(C)                          30                        80                  70                  0                   -10                 normal                                  
+Voltage(V)                              3.23                      3.63                3.46                3.13                2.97                normal                                  
+Tx Bias(mA)                             49.93/49.93/50.37/49.93   130.00              125.00              10.00               1.00                normal/normal/normal/normal             
+Tx Power(avg dBm)                       2.46/2.37/1.30/2.42       8.16                6.50                -2.50               -5.50               normal/normal/normal/normal             
+Rx Power(avg dBm)                       -5.99/-8.63/-7.75/-8.77   -0.50               -3.50               -20.51              -23.47              normal/normal/normal/normal             
+
+DUT1#sh int h 13/0/3 transceiver alarm-threshold 
+HundredGigabitEthernet 13/0/3           Value                     HighAlarm           HighWarn            LowWarn             LowAlarm            Status                                  
+Temperature(C)                          27                        80                  70                  0                   -10                 normal                                  
+Voltage(V)                              3.22                      3.63                3.46                3.13                2.97                normal                                  
+Tx Bias(mA)                             49.93/52.71/50.37/53.74   130.00              125.00              10.00               1.00                normal/normal/normal/normal             
+Tx Power(avg dBm)                       1.16/-0.15/0.23/0.18      8.16                6.50                -2.50               -5.50               normal/normal/normal/normal             
+Rx Power(avg dBm)                       -12.56/-13.88/-12.15/-12.17-0.50               -3.50               -20.51              -23.47              normal/normal/normal/normal             
+
+
+DUT1#sh int ten 9/2/1 transceiver alarm-threshold 
+TenGigabitEthernet 9/2/1                Value                     HighAlarm           HighWarn            LowWarn             LowAlarm            Status                                  
+Temperature(C)                          19                        73                  70                  0                   -3                  normal                                  
+Voltage(V)                              3.33                      3.80                3.47                3.13                2.81                normal                                  
+Tx Bias(mA)                             6.36                      9.90                9.00                1.00                1.00                normal                                  
+Tx Power(avg dBm)                       -2.33                     0.00                -1.00               -7.30               -10.30              normal                                  
+Rx Power(avg dBm)                       -1.44                     1.00                -1.00               -11.10              -13.10              normal                                  
+
+DUT1#sh int ten 10/0/1 transceiver alarm-threshold 
+TenGigabitEthernet 10/0/1               Value                     HighAlarm           HighWarn            LowWarn             LowAlarm            Status                                  
+Temperature(C)                          21                        73                  70                  0                   -3                  normal                                  
+Voltage(V)                              3.29                      3.80                3.47                3.13                2.81                normal                                  
+Tx Bias(mA)                             6.32                      9.90                9.00                1.00                1.00                normal                                  
+Tx Power(avg dBm)                       -2.45                     0.00                -1.00               -7.30               -10.30              normal                                  
+Rx Power(avg dBm)                       -1.41                     1.00                -1.00               -11.10              -13.10              normal                                  
+
+DUT1#sh int ten 9/2/1 transceiver alarm-threshold  
+TenGigabitEthernet 9/2/1                Value                     HighAlarm           HighWarn            LowWarn             LowAlarm            Status                                  
+Temperature(C)                          19                        73                  70                  0                   -3                  normal                                  
+Voltage(V)                              3.31                      3.80                3.47                3.13                2.81                normal                                  
+Tx Bias(mA)                             6.36                      9.90                9.00                1.00                1.00                normal                                  
+Tx Power(avg dBm)                       -2.33                     0.00                -1.00               -7.30               -10.30              normal                                  
+Rx Power(avg dBm)                       -1.49                     1.00                -1.00               -11.10              -13.10              normal                                  
+
+DUT1#sh int h 9/1/1 transceiver alarm-threshold   
+HundredGigabitEthernet 9/1/1            Value                     HighAlarm           HighWarn            LowWarn             LowAlarm            Status                                  
+Temperature(C)                          27                        75                  70                  0                   -5                  normal                                  
+Voltage(V)                              3.28                      3.63                3.46                3.13                2.97                normal                                  
+Tx Bias(mA)                             59.25/60.63/55.06/54.66   110.00              100.00              30.00               20.00               normal/normal/normal/normal             
+Tx Power(avg dBm)                       1.65/1.60/1.96/1.94       5.50                4.50                -5.30               -6.30               normal/normal/normal/normal             
+Rx Power(avg dBm)                       1.23/1.33/1.69/1.79       5.50                4.50                -11.60              -12.60              normal/normal/normal/normal   

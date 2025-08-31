@@ -1,0 +1,110 @@
+2024-11-30_15:11:06 开始连接设备...
+2024-11-30_15:11:07 en
+2024-11-30_15:11:07 
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:07 001288: *Nov 30 15:11:07.783: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: enable
+2024-11-30_15:11:08 config001290: *Nov 30 15:11:07.872: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: configure
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:08 en
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:08 001292: *Nov 30 15:11:07.000: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Configured from console command: end
+config001293: *Nov 30 15:11:08.049: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %SYS-5-CONFIG_I: Configure
+2024-11-30_15:11:08 d from console by console
+001294: *Nov 30 15:11:08.049: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: Sync'ing the running configuration to the standby supervisor.
+001295: *Nov 30 15:11:08.050: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: The running configuration has been successfully synchronized to the standby supervisor.
+001297: *Nov 30 15:11:08.135: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: configure
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:08 en
+2024-11-30_15:11:08 
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:08 001299: *Nov 30 15:11:08.252: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Configured from console command: end
+001300: *Nov 30 15:11:08.301: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %SYS-5-CONFIG_I: Configured from console by console
+config001301: *Nov 30 15:11:08.302: FJFZ-MB-C
+2024-11-30_15:11:09 MNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: Sync'ing the running configuration to the standby supervisor.
+001302: *Nov 30 15:11:08.302: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: The running configuration has been successfully synchronized to the standby supervisor.
+001304: *Nov 30 15:11:09.197: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: configure
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:10 第1轮拷机结束，结果:【Pass】
+2024-11-30_15:11:10 001305: *Nov 30 15:11:09.711: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: (*1/M2) Sync'ing the running configuration from the active supervisor.
+001306: *Nov 30 15:11:09.712: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: (*1/M2) Sync'ing the running configuration from the active supervisor.
+en
+2024-11-30_15:11:11 
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:11 001308: *Nov 30 15:11:11.098: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Configured from console command: end
+config001309: *Nov 30 15:11:11.147: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %SYS-5-CONFIG_I: C
+2024-11-30_15:11:11 onfigured from console by console
+001310: *Nov 30 15:11:11.147: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: Sync'ing the running configuration to the standby supervisor.
+001311: *Nov 30 15:11:11.148: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: The running configuration has been successfully synchronized to the standby supervisor.
+001312: *Nov 30 15:11:11.153: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: (*1/M2) Sync'ing the running configuration from the active supervisor.
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:11 001314: *Nov 30 15:11:11.197: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: configure
+en
+2024-11-30_15:11:11 
+001316: *Nov 30 15:11:11.331: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Configured from console command: end
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:11 001317: *Nov 30 15:11:11.377: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: (*1/M2) Sync'ing the running configuration from the active supervisor.
+001318: *Nov 30 15:11:11.381: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %SYS-5-CONFIG_I: Configured from console by console
+001319: *
+2024-11-30_15:11:11 Nov 30 15:11:11.381: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: Sync'ing the running configuration to the standby supervisor.
+config001320: *Nov 30 15:11:11.382: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: The running configuration has been successfully synchronized to the standby supervisor.
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:11 001322: *Nov 30 15:11:11.481: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: configure
+en
+2024-11-30_15:11:11 
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:11 001324: *Nov 30 15:11:11.542: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Configured from console command: end
+001325: *Nov 30 15:11:11.590: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: (*1/M2) Sync'ing the running configuration from the active supervisor.
+001326: *Nov 30 15:11:11.592: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %SYS-5-CONFIG_I: Confi
+2024-11-30_15:11:11 gured from console by console
+001327: *Nov 30 15:11:11.592: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: Sync'ing the running configuration to the standby supervisor.
+001328: *Nov 30 15:11:11.592: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: The running configuration has been successfully synchronized to the standby supervisor.
+config001330: *Nov 30 15:11:11.642: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: configure
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:12 第2轮拷机结束，结果:【Pass】
+2024-11-30_15:11:12 en
+2024-11-30_15:11:13 
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:13 001332: *Nov 30 15:11:13.043: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Configured from console command: end
+001333: *Nov 30 15:11:13.043: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %SYS-5-CONFIG_I: Configured from console by console
+001334: *Nov 30 15:11:13.043: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %
+2024-11-30_15:11:13 PARAM-6-CONFIG_SYNC: Sync'ing the running configuration to the standby supervisor.
+001335: *Nov 30 15:11:13.044: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: The running configuration has been successfully synchronized to the standby supervisor.
+config001336: *Nov 30 15:11:13.053: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: (*1/M2) Sync'ing the running configuration from the active supervisor.
+001338: *Nov 30 15:11:13.093: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: configure
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:13 en
+2024-11-30_15:11:13 
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:13 001340: *Nov 30 15:11:13.252: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Configured from console command: end
+001341: *Nov 30 15:11:13.296: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: (*1/M2) Sync'ing the running configuration from the active supervisor.
+001342: *Nov 30 15:11:13.301: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %SYS-5-CONFIG_
+2024-11-30_15:11:13 I: Configured from console by console
+001343: *Nov 30 15:11:13.302: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: Sync'ing the running configuration to the standby supervisor.
+001344: *Nov 30 15:11:13.302: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: The running configuration has been successfully synchronized to the standby supervisor.
+config001346: *Nov 30 15:11:13.351: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Executed from console command: configure
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:13 en
+2024-11-30_15:11:13 
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_15:11:13 001348: *Nov 30 15:11:13.502: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %CLI-5-EXEC_CMD: Configured from console command: end
+001349: *Nov 30 15:11:13.502: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %SYS-5-CONFIG_I: Configured from console by console
+config
+2024-11-30_15:11:13 001350: *Nov 30 15:11:13.529: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: (*1/M2) Sync'ing the running configuration from the active supervisor.
+001351: *Nov 30 15:11:13.552: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: Sync'ing the running configuration to the standby supervisor.
+001352: *Nov 30 15:11:13.552: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %PARAM-6-CONFIG_SYNC: The running configuration has been successfully synchronized to the standby supervisor.
+Enter configuration commands, one per line.  End with CNTL/Z.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(config)#
+2024-11-30_15:11:14 第3轮拷机结束，结果:【Pass】
+2024-11-30_15:11:14 拷机已达最大次数，自动停止。
+本次拷机执行轮次:3, PASS次数:3, PASS率:100.00%
+结果已更新至D:\PycharmProjects\OCR\report.xls
+2024-11-30_15:11:16 设备登出
+2024-11-30_15:11:16 拷机停止...

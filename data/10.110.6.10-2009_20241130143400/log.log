@@ -1,0 +1,12 @@
+2024-11-30_14:34:00 开始连接设备...
+rely == Warning: It is not safe without login authentication, it is recommended to set login authentication.
+001195: *Nov 30 14:34:00.307: FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi) %LOGIN-5-LOGIN_SUCCESS: User (guest) login from console succeeded.
+The current login time is Nov 30 2024 14:34:00.
+Last login: Nov 30 2024 14:24:47 through console. Afterwards, 0 authentication failure.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)#
+2024-11-30_14:34:03 show ver slot | $length 0show ver slot | e           x none
+2024-11-30_14:34:04 第1轮拷机结束，结果:【Pass】
+2024-11-30_14:34:05 设备登出
+2024-11-30_14:34:05 拷机停止...
+本次拷机执行轮次:1, PASS次数:1, PASS率:100.00%
+结果已更新至D:\PycharmProjects\OCR\report.xls

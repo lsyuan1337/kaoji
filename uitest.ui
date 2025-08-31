@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OCR_UI</class>
+ <widget class="QMainWindow" name="OCR_UI">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1039</width>
+    <height>815</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>拷机定制工具</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="Line" name="line_4">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_Left">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <layout class="QGridLayout" name="DutInfoLayout_6">
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="dutPw"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="dutIPLabel">
+            <property name="text">
+             <string>IP：</string>
+            </property>
+            <property name="buddy">
+             <cstring>dutIP</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" alignment="Qt::AlignRight">
+           <widget class="QLabel" name="dutUnLabel">
+            <property name="text">
+             <string>Username：</string>
+            </property>
+            <property name="buddy">
+             <cstring>dutUn</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="dutIP"/>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>Arial Narrow</family>
+              <pointsize>13</pointsize>
+              <weight>75</weight>
+              <italic>false</italic>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Box</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <property name="text">
+             <string>设备信息</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="dutUn"/>
+          </item>
+          <item row="4" column="0" alignment="Qt::AlignRight">
+           <widget class="QLabel" name="dutPwLabel">
+            <property name="text">
+             <string>Password：</string>
+            </property>
+            <property name="buddy">
+             <cstring>dutPw</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="4">
+           <widget class="Line" name="line_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0" colspan="4">
+           <layout class="QHBoxLayout" name="ActionFileLayout">
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>MOM白名单：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="actionFn">
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="clearActionFn">
+              <property name="text">
+               <string>×</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="actionFnBtn">
+              <property name="text">
+               <string>..</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="6" column="0" colspan="4">
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="3" column="0" colspan="4">
+             <widget class="QLabel" name="label_2">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="font">
+               <font>
+                <family>Arial Narrow</family>
+                <pointsize>13</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Sunken</enum>
+              </property>
+              <property name="text">
+               <string>实时Log</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QPushButton" name="stopButton">
+              <property name="text">
+               <string>停止拷机</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0" colspan="4">
+             <widget class="Line" name="line_9">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0" colspan="4">
+             <widget class="QTextEdit" name="logText">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <property name="lineWidth">
+               <number>0</number>
+              </property>
+              <property name="midLineWidth">
+               <number>1</number>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QPushButton" name="clearLogButton">
+              <property name="text">
+               <string>清空实时Log</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QPushButton" name="beginButton">
+              <property name="text">
+               <string>开始拷机</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QPushButton" name="logSaveButton">
+              <property name="text">
+               <string>保存实时Log</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="Line" name="line_7">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_Right">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0" colspan="6">
+         <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <family>Arial Narrow</family>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>拷机设置</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::MarkdownText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="actDelBtn">
+          <property name="text">
+           <string>删除</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="actMvUpBtn">
+          <property name="text">
+           <string>上移</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="6">
+         <widget class="Line" name="line_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="actAddBtn">
+          <property name="text">
+           <string>添加</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="6">
+         <widget class="Line" name="line_10">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QPushButton" name="actMvDownBtn">
+          <property name="text">
+           <string>下移</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="5">
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>参数校准</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="4">
+         <widget class="QPushButton" name="actClrBtn">
+          <property name="text">
+           <string>清空</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTableWidget" name="actTableWidget">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="midLineWidth">
+         <number>1</number>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::SingleSelection</enum>
+        </property>
+        <property name="selectionBehavior">
+         <enum>QAbstractItemView::SelectRows</enum>
+        </property>
+        <column>
+         <property name="text">
+          <string>动作</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>参数1</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>参数2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>等待时间(s)</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_8">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1039</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="configMenu">
+    <property name="title">
+     <string>拷机配置</string>
+    </property>
+    <addaction name="configInput"/>
+    <addaction name="configOutput"/>
+   </widget>
+   <widget class="QMenu" name="tipMenu">
+    <property name="title">
+     <string>使用说明</string>
+    </property>
+    <addaction name="tipWhiteList"/>
+   </widget>
+   <widget class="QMenu" name="aboutMenu">
+    <property name="title">
+     <string>关于</string>
+    </property>
+   </widget>
+   <addaction name="configMenu"/>
+   <addaction name="tipMenu"/>
+   <addaction name="aboutMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="configInput">
+   <property name="text">
+    <string>导入</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WidgetWithChildrenShortcut</enum>
+   </property>
+  </action>
+  <action name="configOutput">
+   <property name="text">
+    <string>导出</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>白名单格式说明</string>
+   </property>
+  </action>
+  <action name="tipWhiteList">
+   <property name="text">
+    <string>白名单格式说明</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>稳态切换</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>非稳态切换</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>故障注入后切换</string>
+   </property>
+  </action>
+  <action name="steadyMode">
+   <property name="text">
+    <string>稳态切换</string>
+   </property>
+  </action>
+  <action name="unsteadyMode">
+   <property name="text">
+    <string>非稳态切换</string>
+   </property>
+  </action>
+  <action name="actionMode">
+   <property name="text">
+    <string>故障注入后切换</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>dutIP</tabstop>
+  <tabstop>dutUn</tabstop>
+  <tabstop>dutPw</tabstop>
+  <tabstop>beginButton</tabstop>
+  <tabstop>stopButton</tabstop>
+  <tabstop>clearLogButton</tabstop>
+  <tabstop>logSaveButton</tabstop>
+  <tabstop>actionFnBtn</tabstop>
+  <tabstop>actionFn</tabstop>
+  <tabstop>logText</tabstop>
+  <tabstop>clearActionFn</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>clearActionFn</sender>
+   <signal>clicked()</signal>
+   <receiver>actionFn</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>412</x>
+     <y>174</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>clearLogButton</sender>
+   <signal>clicked()</signal>
+   <receiver>logText</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>368</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>222</x>
+     <y>319</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

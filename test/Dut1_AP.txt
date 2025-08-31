@@ -1,0 +1,353 @@
+en
+config
+!
+interface TenGigabitEthernet 3/0/23
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 3/0/25
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 3/0/26
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 3/0/27
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 7/0/23
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 7/0/25
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 7/0/26
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 7/0/27
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 13/0/43
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface TenGigabitEthernet 13/0/44
+ description AP1 member port
+ port-group 1
+ no shutdown
+!
+interface HundredGigabitEthernet 2/0/8
+ description AP1 member port
+ port-group 1
+ aggregateport load-balance weight 10
+ no shutdown
+!
+interface HundredGigabitEthernet 11/0/4
+ description AP1 member port
+ port-group 1
+ aggregateport load-balance weight 10
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/1
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/2
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/3
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/4
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/5
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/6
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/7
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/8
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/9
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/10
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/11
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/12
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/13
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/14
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/15
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/16
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/17
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/18
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/19
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/20
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/21
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/22
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/23
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 1/1/24
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 3/0/24
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 7/0/24
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 4/0/1
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 4/0/2
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 4/0/3
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 4/0/4
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 13/0/45
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface TenGigabitEthernet 13/0/46
+ description AP2 member port
+ port-group 2 mode active
+ no shutdown
+!
+interface HundredGigabitEthernet 8/1/2
+ description AP3 member port
+ port-group 3
+ no shutdown
+!
+interface HundredGigabitEthernet 11/0/3
+ description AP3 member port
+ port-group 3
+ no shutdown
+!
+interface HundredGigabitEthernet 16/0/8
+ description AP3 member port
+ port-group 3
+ no shutdown
+!
+interface AggregatePort 1
+ no shutdown
+ mls qos trust auto 
+ aggregate bfd-detect ipv4 11.0.2.1 11.0.2.2 min-tx 3 min-rx 3 multiplier 3 unshare
+ aggregate bfd-detect ipv6 2011:1:2002::1 2011:1:2002::2 min-tx 3 min-rx 3 multiplier 3 unshare
+ ip address 11.0.2.1 255.255.255.0
+ ipv6 address 2011:1:2002::1/64
+ ipv6 enable
+ ip router isis 65535
+ ipv6 router isis 65535
+ ip ospf 65535 area 0
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 Cmcc@111#*
+ ipv6 ospf 65535 area 0
+ ipv6 ospf authentication-mode 1 hmac-sha256 Cmcc@111#*
+ bfd interval 50 min_rx 50 multiplier 3
+ mpls ldp enable
+ label-switching
+ ipv6 pim sparse-mode
+ ip pim sparse-mode
+ ipv6 verify unicast source reachable-via rx
+ ip verify unicast source reachable-via rx
+ load-balance ucmp
+ mpls ucmp enable
+ isis bfd
+ ip ospf bfd
+ ipv6 ospf bfd
+ isis suppress 40 
+ ip mtu 9200
+ ipv6 mtu 9200
+!
+interface AggregatePort 2
+ no shutdown
+ mls qos trust auto 
+ aggregate bfd-detect ipv4 11.0.3.1 11.0.3.2 min-tx 3 min-rx 3 multiplier 3 unshare
+ aggregate bfd-detect ipv6 2011:1:2003::1 2011:1:2003::2 min-tx 3 min-rx 3 multiplier 3 unshare
+ ip address 11.0.3.1 255.255.255.0
+ ipv6 address 2011:1:2003::1/64
+ ipv6 enable
+ ip router isis 65535
+ ipv6 router isis 65535
+ ip ospf 65535 area 0
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 Cmcc@111#*
+ ipv6 ospf 65535 area 0
+ ipv6 ospf authentication-mode 1 hmac-sha256 Cmcc@111#*
+ bfd interval 50 min_rx 50 multiplier 3
+ mpls ldp enable
+ label-switching
+ ipv6 pim sparse-mode
+ ip pim sparse-mode
+ ipv6 verify unicast source reachable-via rx
+ ip verify unicast source reachable-via rx
+ load-balance ucmp
+ mpls ucmp enable
+ isis bfd
+ ip ospf bfd
+ ipv6 ospf bfd
+ isis suppress 40 
+ ip mtu 9200
+ ipv6 mtu 9200
+!
+interface AggregatePort 3
+ no shutdown
+ mls qos trust auto 
+ aggregate bfd-detect ipv4 11.0.4.1 11.0.4.2 min-tx 3 min-rx 3 multiplier 3 unshare
+ aggregate bfd-detect ipv6 2011:1:2004::1 2011:1:2004::2 min-tx 3 min-rx 3 multiplier 3 unshare
+ ip address 11.0.4.1 255.255.255.0
+ ipv6 address 2011:1:2004::1/64
+ ipv6 enable
+ ip router isis 65535
+ ipv6 router isis 65535
+ ip ospf 65535 area 0
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 Cmcc@111#*
+ ipv6 ospf 65535 area 0
+ ipv6 ospf authentication-mode 1 hmac-sha256 Cmcc@111#*
+ bfd interval 50 min_rx 50 multiplier 3
+ mpls ldp enable
+ label-switching
+ ipv6 pim sparse-mode
+ ip pim sparse-mode
+ ipv6 verify unicast source reachable-via rx
+ ip verify unicast source reachable-via rx
+ load-balance ucmp
+ mpls ucmp enable
+ isis bfd
+ ip ospf bfd
+ ipv6 ospf bfd
+ isis suppress 40 
+ ip mtu 9200
+ ipv6 mtu 9200
+!
+interface HundredGigabitEthernet 8/1/1
+ isis wide-metric 100
+ isis ipv6 wide-metric 100
+ no ip ospf 65535 area 0
+ no ip ospf authentication
+ no ip ospf message-digest-key 1 
+ no ipv6 ospf 65535 area 0
+ no ipv6 ospf authentication-mode
+ no mpls ldp enable
+ no label-switching
+ no ipv6 pim sparse-mode
+ no ip pim sparse-mode
+ no load-balance ucmp
+ no mpls ucmp enable
+ no ip ospf bfd
+ no ipv6 ospf bfd
+ ip mtu 9200
+ ipv6 mtu 9200
+!
+end

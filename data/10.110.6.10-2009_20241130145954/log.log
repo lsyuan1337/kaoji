@@ -1,0 +1,21 @@
+2024-11-30_14:59:54 开始连接设备...
+2024-11-30_14:59:57 
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(support)#
+2024-11-30_14:59:58 show ver slot
+                                                      ^
+% Invalid input detected at '^' marker.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(support)#
+2024-11-30_15:00:00 show ver slot
+                                                      ^
+% Invalid input detected at '^' marker.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(support)#
+2024-11-30_15:00:02 show ver slot
+                                                      ^
+% Invalid input detected at '^' marker.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(support)#
+2024-11-30_15:00:04 show ver slot
+                                                      ^
+% Invalid input detected at '^' marker.
+FJFZ-MB-CMNET-SR04-PTCCXH-N8010R(ceshi)(support)#
+2024-11-30_15:00:05 设备登出
+2024-11-30_15:00:05 拷机停止...

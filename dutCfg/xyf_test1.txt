@@ -1,0 +1,36 @@
+end
+conf t
+energy-efficient mode deep
+y
+
+
+
+end
+conf t
+default energy-efficient mode
+
+
+
+end
+conf t
+energy-efficient mode deep
+y
+
+
+
+end
+conf t
+no energy-efficient mode
+
+
+
+end
+conf t
+energy-efficient mode deep
+y
+
+
+
+end
+conf t
+energy-efficient mode standard

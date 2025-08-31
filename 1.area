@@ -1,0 +1,2 @@
+{0: {'areaTuple': '(664,290,681,306)', 'expectSec': '等于', 'expectValue': '0', 'note': ''}, 1: {'areaTuple': '(666,252,718,266)', 'expectSec': '误差不超过±5%', 'expectValue': '2640000', 'note': ''}, 2: {'areaTuple': '(666,231,730,247)', 'expectSec': '误差不超过±5%', 'expectValue': '18200000', 'note': ''}, 3: {'areaTuple': '(665,171,718,187)', 'expectSec': '误差不超过±5%', 'expectValue': '27000000', 'note': ''}}
+

@@ -1,0 +1,46 @@
+
+service bfn.sda.sw self-inspection device 1 slot 1
+y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot 2
+y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot 3
+y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot 4
+y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot 5
+y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot 7
+y
+#-py pass
+!service bfn.sda.sw self-inspection device 1 slot 8
+!y
+#-py pass
+service sub.sda.sw-1 self-inspection device 1 slot 3
+y
+#-py pass
+service sub.sda.sw-2 self-inspection device 1 slot 3
+y
+#-py pass
+!service sub.sda.sw-1 self-inspection device 1 slot 8
+!y
+#-py pass
+!service sub.sda.sw-2 self-inspection device 1 slot 8
+!y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot FE1
+y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot FE2
+y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot FE3
+y
+#-py pass
+service bfn.sda.sw self-inspection device 1 slot FE4
+y
+#-py pass

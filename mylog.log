@@ -1,0 +1,58 @@
+2023-05-30_14:04:33 开始连接设备...
+2023-05-30_14:04:34 User Access Verification
+Username:lsy
+Password:
+2023-05-30_14:04:37 The current login time is May 30 2023 14:04:36.
+Last login: May 30 2023 14:04:07 from 10.109.13.216 through telnet. Afterwards, 0 authentication failure.
+DUT1#
+2023-05-30_14:04:40 config
+Enter configuration commands, one per line.  End with CNTL/Z.
+DUT1(config)#
+2023-05-30_14:04:40 en
+2023-05-30_14:04:40 
+DUT1#
+2023-05-30_14:04:40 ter length 0
+2023-05-30_14:04:40 
+DUT1#
+2023-05-30_14:04:40 conf t
+2023-05-30_14:04:40 
+Enter configuration commands, one per line.  End with CNTL/Z.
+DUT1(config)#
+2023-05-30_14:04:40 int h1/0/1
+2023-05-30_14:04:40 
+DUT1(config-if-HundredGigabitEthernet 1/0/1)#
+2023-05-30_14:04:41 int h1/0/2
+DUT1(config-if-HundredGigabitEthernet 1/0/2)#
+2023-05-30_14:04:41 show thi
+Building configuration...
+!
+ description PBR
+ qos queue 1 bandwidth maximum percentage 100
+ qos queue 1 bandwidth minimum percentage 5
+ qos queue 6 bandwidth maximum percentage 15
+ qos queue 1 scheduler lpq
+ mls qos trust auto
+ qos weight-queue bandwidth maximum percentage 90
+ mls qos scheduler wfq
+ wfq-queue bandwidth 0 1 2 3 3 0 0 0
+ ipv6 traffic-filter acl-v6 in
+ ip access-group acl-v4 in
+ ip address 11.12.2.1 255.255.255.0
+ ipv6 address 2011:12:2::1/64
+ ipv6 enable
+ ipv6 policy route-map PBR-v6
+ ip policy route-map PBR-v4
+ ipv6 flow-sampler cmcc_sampler
+ ipv6 flow-sampler cmcc_sampler egress
+ flow-sampler cmcc_sampler
+ flow-sampler cmcc_sampler egress
+ ipv6 flow ingress
+ ipv6 flow egress
+ ip flow ingress
+ ip flow egress
+!
+end
+DUT1(config-if-HundredGigabitEthernet 1/0/2)#
+2023-05-30_14:04:41 第1轮拷机结束，结果:【Pass】
+2023-05-30_14:04:41 拷机已达最大次数，自动停止。
+2023-05-30_14:04:41 拷机结果保存至D:\PycharmProjects\OCR\data\10.110.5.73_20230530140433\result.txt

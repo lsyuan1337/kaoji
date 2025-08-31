@@ -1,0 +1,2 @@
+s_intf/cfg_protect/*
+s_intf/stat_linkinfo/*

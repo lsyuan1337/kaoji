@@ -1,0 +1,17 @@
+en
+ter length 0 
+show cpu-protect
+clear cpu-protect statistics
+show cpu-protect auto-port-defend summary 
+show cpu-protect auto-port-defend attacked summary
+show cpu-protect auto-port-defend statistics
+clear cpu-protect statistics
+clear cpu-protect statistics interface aggregatePort 1
+clear cpu-protect statistics interface aggregatePort 2
+clear cpu-protect statistics interface aggregatePort 3
+clear cpu-protect statistics interface hu 1/0/8
+clear cpu-protect statistics interface te 3/0/39
+clear cpu-protect statistics interface te 4/0/42
+clear cpu-protect statistics interface hu 5/0/5
+clear cpu-protect statistics interface te 8/0/23
+clear cpu-protect statistics interface te 9/0/20

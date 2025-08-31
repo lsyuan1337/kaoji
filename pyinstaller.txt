@@ -1,0 +1,16 @@
+pyinstaller -F D:\PycharmProjects\OCR\getAreaTuple.py -n getAreaTuple
+pyinstaller -F D:\PycharmProjects\OCR\OCRtest.py -n OCR
+
+pyinstaller --noconsole -F D:\PycharmProjects\OCR\ocrTableMain.py -n 数值监控工具v1.04 -i D:\PycharmProjects\kaojiUI\J.jpeg
+
+
+
+pyinstaller --noconsole --onefile --windowed --noupx -F D:\PycharmProjects\OCR\ocrUI_main.py -n D:\PycharmProjects\OCR\拷机工具v2.32_B -i D:\PycharmProjects\kaojiUI\K.jpeg 
+pyinstaller --noconsole --onefile --windowed --noconfirm --noupx -D D:\PycharmProjects\OCR\ocrUI_main.py -n D:\PycharmProjects\OCR\拷机工具v2.31 -i D:\PycharmProjects\kaojiUI\K.jpeg 
+
+for d in a.datas:
+	if '_C.cp37-win_amd64.pyd' in d[0]:
+		a.datas.remove(d)
+		break
+
+

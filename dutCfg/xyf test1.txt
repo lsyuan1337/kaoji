@@ -1,0 +1,4 @@
+en
+ter leng 0
+
+show ip int b 

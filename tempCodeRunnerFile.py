@@ -1,0 +1,5 @@
+d1.toShell()
+d1.showReadUntil('rg_at',mxto=1)
+d1.showReadUntil('load pktd_ctrl_inb',mxto=1)
+d1.showReadUntil('ut set_hal_dbg 1 0 1 0 1000000',mxto=1)
+d1.exitShell()
