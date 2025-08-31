@@ -10,9 +10,10 @@ def getDigitStr(s):
         return Ds
     
 
-def doOcr(fpath): #检测出数值则返回数值，否则None
+def doOcr(fpath,psm=6): #检测出数值则返回数值，否则None
     #pytesseract接口
-    config = r'-c tessedit_char_whitelist=1234567890 --psm 7' #设置识别白名单为数字，
+    config = r'-c tessedit_char_whitelist=1234567890 --psm {}'.format(psm) #设置识别白名单为数字，
+    #print(config)
     crops = pytesseract.image_to_string(Image.open(fpath), lang='eng',config=config)
     # print(crops)
     result = getDigitStr(crops) #获取识别结果中的所有数字
@@ -70,6 +71,4 @@ def digitJudge(real,expect,mode='eq'):
     finally:
         return result
     
-if __name__ == "__main__":
-    print(doOcr('1700119129.3213797.png'))
 

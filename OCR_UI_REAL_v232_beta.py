@@ -37,7 +37,7 @@ class Worker(QThread):
     
     def __init__(self,textEdit,logFn,maxNum):
         super(Worker,self).__init__()
-        self.version = '2.32_B'
+        self.version = '2.33'
         self.stopped = False
         self.t = textEdit
         self.f = logFn
@@ -833,7 +833,7 @@ class Ui_OCR_UI(object):
 
     def retranslateUi(self, OCR_UI):
         _translate = QtCore.QCoreApplication.translate
-        OCR_UI.setWindowTitle(_translate("OCR_UI", "拷机工具_V2.32_B"))
+        OCR_UI.setWindowTitle(_translate("OCR_UI", "拷机工具_V2.33"))
         self.StatusLabel.setText(_translate("OCR_UI", "未运行"))
         self.label.setText(_translate("OCR_UI", "设备信息"))
         self.label_2.setText(_translate("OCR_UI", "实时Log"))
@@ -1811,7 +1811,7 @@ class Ui_OCR_UI(object):
             #判定预期值,最多判断3次
             for i in range(3):
                 picFn = getAreaPic(areaTuple)
-                ocrDigitResult = doOcr(picFn)
+                ocrDigitResult = doOcr(picFn,self.psmCombox.currentText())
                 if expectSec == 'ltbfe':
                     if ocrDigitResult != None:
                         try:
@@ -1884,7 +1884,7 @@ class Ui_OCR_UI(object):
 
         
     @error_ignore
-    def getAreaTp(self,setArea=False):
+    def getAreaTp(self):
         self.disableInput()
         self.stopButton.setEnabled(False)
         self.logText.clear()
@@ -1893,9 +1893,10 @@ class Ui_OCR_UI(object):
         
         # 连接结果信号
         def handle_result(result):
-            #print(f"线程返回值: {result}")
             # 可以在这里处理返回值，比如存储到实例变量中
             self.thread_result = result
+            # 如果传入了lineedit对象，自动将结果填充到lineedit上
+            self.ocrTestResultLineEdit.setText(str(result))
             
         t.result_signal.connect(handle_result)
         
@@ -1904,10 +1905,7 @@ class Ui_OCR_UI(object):
         t.start()
         # 不再使用 t.wait() 避免阻塞UI
         # 返回值将通过信号异步获取
-        # if setArea:
-        #     setArea.setText(t)
         
-        return t
         
     def reportUpdate(self):
         # getActionDictXls(reportFn)
@@ -1974,7 +1972,7 @@ class Ui_OCR_UI(object):
             try:
                 areaTuple = eval(self.ocrTupleLineEdit.text())
                 picFn = getAreaPic(areaTuple)
-                ocrDigitResult = doOcr(picFn)
+                ocrDigitResult = doOcr(picFn,self.psmCombox.currentText())
                 self.ocrTestPictureLabel.setPixmap(QPixmap(picFn))
                 self.ocrTestResultLineEdit.setText(str(ocrDigitResult))
             except Exception as e:
