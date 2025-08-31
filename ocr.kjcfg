@@ -1,3 +1,0 @@
-{'ip': '10.110.1.116', 'UserName': 'lsy', 'PassWord': 'Cmri@2023'}
-{0: {'action': '[检查项]测试仪数值', 'arg_1': '', 'arg_2': '', 'times': '', 'waitFor': '0'}}
-{'mainTimes': 1, 'isInfinitely': False, 'isFailCollect': False, 'isFailStop': False, 'ismainTimes': True, 'description': '1'}

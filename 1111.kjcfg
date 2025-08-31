@@ -1,3 +1,0 @@
-{'ip': '10.110.6.10', 'port': '2009', 'UserName': '', 'PassWord': ''}
-{0: {'action': '[设备操作]配置下发', 'arg_1': 'toconfig.txt', 'arg_2': False, 'times': 3, 'waitFor': '1'}}
-{'mainTimes': 3, 'isInfinitely': False, 'isFailCollect': True, 'isFailStop': True, 'ismainTimes': True, 'description': '1'}

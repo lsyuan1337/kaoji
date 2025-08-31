@@ -23,13 +23,6 @@ def doOcr(fpath,psm=6): #检测出数值则返回数值，否则None
     else:
         return 0 #未识别到返回0
 
-    #ddddocr接口
-    # from ddddocr import DdddOcr
-    # ocr = DdddOcr(show_ad=False)
-    # with open(fpath, 'rb') as f:     # 打开图片
-    #     img_bytes = f.read() 
-    # crops = ocr.classification(img_bytes)  # 识别
-
     
     
 def getOcrResult(fpath):

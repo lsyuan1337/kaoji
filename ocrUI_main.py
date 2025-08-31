@@ -2,7 +2,7 @@ import sys
 # from PyQt5 import QtCore, QtGui, QtWidgets
 # from PyQt5.QtWidgets import QApplication,QMainWindow
 from PyQt5.QtGui import QIcon
-from OCR_UI_REAL_v232_beta import *
+from OCR_UI_REAL_v233 import *
 # from my_logger import *
 
 

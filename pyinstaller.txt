@@ -5,7 +5,7 @@ pyinstaller --noconsole -F D:\PycharmProjects\OCR\ocrTableMain.py -n 数值监�
 
 
 
-pyinstaller --noconsole --onefile --windowed --noupx -F D:\PycharmProjects\OCR\ocrUI_main.py -n D:\PycharmProjects\OCR\拷机工具v2.32_B -i D:\PycharmProjects\kaojiUI\K.jpeg 
+pyinstaller --noconsole --onefile --windowed --noupx -F D:\PycharmProjects\OCR\ocrUI_main.py -n D:\PycharmProjects\OCR\拷机工具v2.33 -i D:\PycharmProjects\kaojiUI\K.jpeg 
 pyinstaller --noconsole --onefile --windowed --noconfirm --noupx -D D:\PycharmProjects\OCR\ocrUI_main.py -n D:\PycharmProjects\OCR\拷机工具v2.31 -i D:\PycharmProjects\kaojiUI\K.jpeg 
 
 for d in a.datas:
