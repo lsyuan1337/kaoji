@@ -31,7 +31,7 @@ def getArea1():
 
 
 def getArea():
-    print('请使用鼠标拖拽选择区域（左上角到右下角）...')
+    print('请使用鼠标拖拽选择区域，按ESC键取消选择...')
     
     # 创建全屏透明窗口用于截图
     root = tk.Tk()
@@ -85,7 +85,6 @@ def getArea():
     def on_escape(event):
         nonlocal cancelled
         cancelled = True
-        # print('选择已取消')
         root.quit()
         root.destroy()
     
@@ -109,6 +108,6 @@ def getAreaTupleFunc():
     if s is None:
         print('选择已取消')
         return None
+    print("区域坐标已复制到剪贴板：", s)
     pyperclip.copy(s)
-    print('已复制坐标：{}'.format(s))
     return s

@@ -377,11 +377,37 @@ def areaErrMsgStr(rowNum,colName,argNum = 1,other=',不能置空'):
     return '【区域设置】第{}行{}参数有误'.format(rowNum,colName)
 
 def getAreaPic(areaTuple):
-    dataFolder = 'areaData/'
-    fp = path.join(dataFolder,'{}.png'.format(getGMT()))
-    im = ImageGrab.grab(areaTuple)  
-    im.save(fp)
-    return path.abspath(fp)
+    try:
+        # 参数验证
+        if not isinstance(areaTuple, tuple):
+            raise ValueError("areaTuple必须为tuple类型")
+        
+        # 确保areaData目录存在
+        dataFolder = 'areaData'
+        if not path.isdir(dataFolder):
+            mkdir(dataFolder)
+        
+        # 生成文件路径
+        fp = path.join(dataFolder,'{}.png'.format(getGMT()))
+        
+        # 截取图片
+        im = ImageGrab.grab(areaTuple)
+        
+        # 保存图片
+        im.save(fp)
+        
+        # 返回绝对路径
+        abs_path = path.abspath(fp)
+        
+        # 验证文件是否成功创建
+        if not path.isfile(abs_path):
+            raise FileNotFoundError(f"图片文件创建失败: {abs_path}")
+            
+        return abs_path
+        
+    except Exception as e:
+        print(f"getAreaPic执行失败: {e}")
+        raise
 
 def createFloder(Fname):
     try:
